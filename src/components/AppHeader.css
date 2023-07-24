@@ -1,0 +1,12 @@
+.app-header {
+  display: flex;
+  height: 50px;
+  border-bottom: 1px solid gray;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-header-logo {
+  position: relative;
+  height: 40px;
+}

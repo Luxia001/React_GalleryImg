@@ -1,0 +1,40 @@
+.tattoo-post{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.tattoo-post-bg{
+    background-color: rgb(0, 0, 0,.8);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.tattoo-post-content{
+    position: relative;
+    max-width: 1200px;
+    background-color: black;
+
+}
+
+.tattoo-post-content img {
+    display: block;
+    max-width: 100%;
+    max-height: calc(100vh - 120px);
+    margin: auto;
+}
+
+.tattoo-post-content h4{
+    color: white;
+    text-align: center;
+}
